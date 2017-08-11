@@ -4,47 +4,47 @@
 
 ## 语言
 
-- [ ] python
-- [ ] java
-- [ ] goalng
-- [ ] php
+- python
+- java
+- goalng
+- php
 
 ## SQL
 
-- [ ] mongodb
-- [ ] mysql
+- mongodb
+- mysql
 
 ## 缓存
 
-- [ ] redis
+- redis
 
 ## 技能
 
-- [ ] OpenResty
-- [ ] TCP/IP
-- [ ] Linux OS
+- OpenResty
+- TCP/IP
+- Linux OS
 
 ## 数据结构
 
-- [ ] B-树
-- [ ] B+树
-- [ ] 跳跃表
-- [ ] 哈希表
-- [ ] 红黑树
+- B-树
+- B+树
+- 跳跃表
+- 哈希表
+- 红黑树
 
 ## SRE
 
-- [ ] docker
-- [ ] k8s
+- docker
+- k8s
 
 ## 测试
 
-- [ ] codeception
+- codeception
 
 ## 自动化
 
-- [ ] gitlab-ci
-- [ ] travis-ci
+- gitlab-ci
+- travis-ci
 
 ---
 
