@@ -1,2 +1,3 @@
 - [首页](/)
-- [todo](/todo)
+- [Todo](/todo)
+- [Redis](/redis/string/sds)
