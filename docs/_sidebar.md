@@ -1,3 +1,5 @@
 - [首页](/)
 - [Todo](/todo)
-- [Redis](/redis/string/sds)
+- [Redis 设计与实现]
+  - [简单动态字符串](/redis/string/sds)
+  - [链表](/redis/list)
