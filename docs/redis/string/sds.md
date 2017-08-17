@@ -4,8 +4,8 @@
 
 ```c
 struct sdshdr {
-  len int; // 所保存的字符串长度
-  free int; // 未使用的字节长度
+  unsigned int len; // 所保存的字符串长度
+  unsigned int free; // 未使用的字节长度
   char buf[]; // 字节数组，用于保存字符串
 }
 ```
