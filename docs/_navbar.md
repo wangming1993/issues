@@ -1,3 +1,5 @@
 - [En](/)
-- 教程
-    - [快速开始](/todo)
+- redis
+    - [字符串](/redis/sds)
+    - [列表](/redis/list)
+    - [字典](/redis/dict)
