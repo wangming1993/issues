@@ -2,4 +2,5 @@
     - [字符串](/redis/sds)
     - [列表](/redis/list)
     - [字典](/redis/dict)
-- [gloang](/golang/slice)
+- gloang
+    - [分片](/golang/slice)
