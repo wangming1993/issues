@@ -60,14 +60,18 @@ typedef struct dict {
 ### 如何操作数据
 
 假设现在需要添加一个数据 `<k, v>`, 先需要计算哈希值:
-```
+
+```c
 hash = dict->type->hashFunction(k);
 ```
+
 然后根据 `sizemask` 求出索引值:
-```
+
+```c
  index = hash & dict->ht[x]->sizemask;   
  // x 表示实际存放哈希表的索引， 一般为 0 ，当在进行 rehash 时为 1
 ```
+
 这样就可以将 `<k, v>` 存储在 `dict->ht[x]->table[index]` 中， 如果 `table[index]` 中已经有数据， 则新添加的数据放在链表表头. (这是因为 `table[index]` 中的链表时一个单链表，没有指向链表尾部的指针，添加到表头更快)
 
 ### rehash 过程
@@ -82,7 +86,8 @@ hash = dict->type->hashFunction(k);
 2. 在执行 `BGSAVE` 或 `BGREWRITEAOF`时，哈希表的负载因子 `>= 5`
 
 负载因子的计算：
-```
+
+```c
 load_factor = ht[0].used / ht[0].size
 ```
 

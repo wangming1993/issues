@@ -4,4 +4,5 @@
     - [简单动态字符串](/redis/sds)
     - [链表](/redis/list)
     - [字典](/redis/dict)
-    
+- [Golang相关]
+    - [数组与分片](/golang/slice.md)
